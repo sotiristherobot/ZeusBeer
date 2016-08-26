@@ -4,6 +4,9 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+body{
+  background-color: #19190D;
+}
 
 /* Header */
 header{
@@ -43,11 +46,22 @@ header{
   width: 40px;
 }
 
-#right-sidebar{
-  background-image: url(../images/beer.png);
+.bg-image{
+
+  background: url(../images/background-footer.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 2000px;
+  height: 2418px ;
+
 }
+
+//#right-sidebar{
+//  background-image: url(../images/beer.png);
+//  -webkit-background-size: cover;
+//  -moz-background-size: cover;
+//  -o-background-size: cover;
+//  background-size: cover;
+//  height: 2000px;
+//}
