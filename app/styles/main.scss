@@ -4,18 +4,33 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-html, body{
+
+/* Header */
+header{
+  height: 100vh;
+  width: 100%;
   margin: 0;
   padding: 0;
-  height: 100%;
-  width: 100%;
-}
-
-header{
-  height: 100%;
   background: url(../images/Top-Background.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+#logo{
+  position: absolute;
+  top: 100px;
+  width:50%;
+  left:50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+}
+
+header h4{
+  color: #CDB377;
 }
