@@ -60,9 +60,35 @@ header{
   -o-background-size: auto ;
   background-size: auto;
   height: 547px;
-
+  z-index: 2;
 
 }
+
+.btn{
+  float: left;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  border: #3F4429 1px solid;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+
+}
+
+.btn a{
+
+  color: white;
+  text-decoration: none;
+}
+
+.btn a:hover{
+
+  color: white;
+  text-decoration: none;
+}
+
 
 #beer{
   z-index: 3;
