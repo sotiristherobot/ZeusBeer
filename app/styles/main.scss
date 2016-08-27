@@ -4,8 +4,14 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+
+/*fonts*/
+@import 'https://fonts.googleapis.com/css?family=Cinzel+Decorative';
+@import 'https://fonts.googleapis.com/css?family=Amiri';
+
 body{
   background-color: #19190D;
+  font-family: 'Amiri', serif;
 }
 
 /* Header */
@@ -40,6 +46,7 @@ header{
 }
 #logo  h1,.h1,h2,.h2{
   color: white;
+  font-family: 'Cinzel Decorative', cursive;;
 }
 
 #down-arrow{
